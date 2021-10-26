@@ -134,6 +134,25 @@ body {
    border-radius: 100;
 }
 
+#arrow-wrapper {
+   position: absolute;
+   bottom: 100px;
+   left: 50%;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#arrow {
+   height: 100%;
+   position: fixed;
+   width: 50px;
+   height: 50px;
+   z-index: -1;
+}
+
 #img-wrapper {
    width: 300px;
    height: 300px;
